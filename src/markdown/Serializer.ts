@@ -108,8 +108,8 @@ export class Serializer {
     const mediaList: Media[] = [];
 
     cards.forEach((card) => {
-      card.setQuestion(this.prepareMediaForSide(card.question, mediaList));
-      card.setAnswer(this.prepareMediaForSide(card.answer, mediaList));
+      // card.setQuestion(this.prepareMediaForSide(card.question, mediaList));
+      // card.setAnswer(this.prepareMediaForSide(card.answer, mediaList));
     });
 
     return mediaList;
